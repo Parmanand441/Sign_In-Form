@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(179, 37, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    width: 400px;
+    height: 350px;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px white;
+    /* background-color: dodgerblue;
+     */
+     background-image: url(../Card!/dddepth-122.jpg);
+     background-size: cover;
+    padding: 10px;
+}
+.box h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.box label{
+    color: rgb(145, 9, 138);
+    margin-top: 10px;
+}
+.box input{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent 0.8;
+}
+button{
+    
+    width: 30%;
+    background-color: rgb(223, 106, 217);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#scnd{
+    margin-left: 10px;
+    width: 30%;
+    background-color: rgb(223, 106, 217);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
